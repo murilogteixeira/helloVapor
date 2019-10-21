@@ -45,9 +45,9 @@ public func routes(_ router: Router) throws {
         return req.redirect(to: "/img.png")
     }
     
-    router.get("site") { req in
-        return req.redirect(to: "/site/index.html")
-    }
+//    router.get("site") { req in
+//        return req.redirect(to: "/site/index.html")
+//    }
 
     // Example of configuring a controller
     let todoController = TodoController()
